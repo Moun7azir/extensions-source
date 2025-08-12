@@ -1,4 +1,5 @@
 name: Build SnowMTL Extension
+run: ./gradlew :src:all:snowmtl:assembleDebug
 
 on:
   push:

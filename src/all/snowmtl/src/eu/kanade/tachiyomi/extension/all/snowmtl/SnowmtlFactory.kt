@@ -17,7 +17,7 @@ private val languageList = listOf(
     LanguageSetting("id"),
     LanguageSetting("it"),
     LanguageSetting("pt-BR", "pt"),
-    LanguageSetting("fr"),  // <-- Ajout du français ici
+    LanguageSetting("fr"),
 )
 
 data class LanguageSetting(

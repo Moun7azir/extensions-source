@@ -24,7 +24,7 @@ jobs:
         run: ./gradlew :src:all:snowmtl:assemble
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: snowmtl-apk
           path: src/all/snowmtl/build/outputs/apk/
